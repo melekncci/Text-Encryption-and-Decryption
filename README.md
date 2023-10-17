@@ -42,8 +42,13 @@ The reason why this kind of encryption is not secure, is because each letter in 
 A first step to perform frequency analysis is to count the frequency (or number of occurrence) of each letter in the encrypted text.
 In this part of the project, you are asked to write a function that computes the number of occurrences of each letter of the alphabet in the encrypted text. The output should correspond to something like the following (of course, the numbers will depend on the text that you use) :
 A occurs 29 times in the encrypted text
+
 B occurs 15 times in the encrypted text
+
 C occurs 18 times in the encrypted text
+
 ... etc ...
+
 Z occurs 7 times in the encrypted text
+
 [1] Caesar_cipher, https://en.wikipedia.org/wiki/Caesar_cipher
