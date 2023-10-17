@@ -41,6 +41,7 @@ The encryption method that you implemented previously is not very secure. It is 
 The reason why this kind of encryption is not secure, is because each letter in the original text is always encrypted the same way. For example, the most common letter in the English language is "E" and it might always be encrypted as "B" for example, so if a hacker finds that "B" is the most common letter in the encrypted text then he can assume it represents "E". From this, the hacker can deduce that the original text has been encrypted by shifting letters to the left by 3 positions. Now, that he knows the key (i.e. 3), he can easily decrypt the text. This process can be carried out for all letters, and it is called frequency analysis.
 A first step to perform frequency analysis is to count the frequency (or number of occurrence) of each letter in the encrypted text.
 In this part of the project, you are asked to write a function that computes the number of occurrences of each letter of the alphabet in the encrypted text. The output should correspond to something like the following (of course, the numbers will depend on the text that you use) :
+
 A occurs 29 times in the encrypted text
 
 B occurs 15 times in the encrypted text
